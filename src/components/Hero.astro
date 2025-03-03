@@ -1,0 +1,63 @@
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>Welcome to GigaCafe</h1>
+      <p>A community of passionate developers joining foreign hackathons</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn">Learn More</a>
+        <a href="#contact" class="btn btn-outline">Join Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    color: white;
+    padding: 6rem 0;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+
+  .btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero-content p {
+      font-size: 1.2rem;
+    }
+
+    .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style> 
